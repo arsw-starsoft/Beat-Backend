@@ -32,7 +32,13 @@ public class Servicio implements Serializable {
     @Column
     private Double distance;
 
-   
+    @Column
+    private String destino;
+
+
+    @Column
+    private Integer idPeticion;
+
     @ManyToOne
     private Driver driver;
     
